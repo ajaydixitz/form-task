@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+</head>
+<body>
+    <form action="/register" method="post">
+        <h3>please register</h3>
+        <h1>First name :  <input type="text" name="FirstName"> </h1>
+        <h1>last name: <input type="test" name="LastName"> </h1>
+        <h1> email : <input type="text" name="email"></h1>
+        <h1>password : <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z]).{8,}"> </h1>
+        <button type="submit">register</button>
+
+    </form>
+</body>
+</html>
